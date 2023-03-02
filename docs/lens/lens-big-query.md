@@ -19,7 +19,7 @@
 ## 实践案例
 现在我们尝试对lens不同app下的publication进行统计，并生成可视化的图表。
 
-1. 我们使用``表来汇总lens下不同app发布的publication数量，并根据publication数量从大到小排序
+1. 我们使用`lens-public-data.polygon.public_app_publication_stats`表来汇总lens下不同app发布的publication数量，并根据publication数量从大到小排序
     ```
     select app_id,
     count(*) as app_publications_count
