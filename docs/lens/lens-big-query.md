@@ -29,7 +29,7 @@
     ```
     ![Count publication by app](/docs//lens//images//count-lens-publication-by-app.png)
 
-2. 接着我们使用这个查询来生成图表，Big Query目前支持三种方式来展示数据：`表格`(类似Excel)、`Looker Studio`(支持一些常用图表来对数据进行可视化处理)以及`Colab`(使用Python来处理数据并生成可视化图表)。我们本地使用`Looker Studio`来生成可视化图表。进入`Looker Studio`后就可以看到它自动帮我们生成了一个表格和一个柱状图，具体如下图：
+2. 接着我们使用这个查询来生成图表，Big Query目前支持三种方式来展示数据：`表格`(类似Excel)、`Looker Studio`(支持一些常用图表来对数据进行可视化处理)以及`Colab`(使用Python来处理数据并生成可视化图表)。我们这次使用`Looker Studio`来生成可视化图表。进入`Looker Studio`后就可以看到它自动帮我们生成了一个表格和一个柱状图，具体如下图：
 ![Looker Studio introduction](/docs//lens//images/looker-studio-introduction.png)
     1. 表示数据集，也即我们上面的sql执行后的结果集
 
